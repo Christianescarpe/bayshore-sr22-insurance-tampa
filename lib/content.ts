@@ -68,5 +68,5 @@ export const COMPANY_INFO = {
   zip: '33607',
   country: 'United States',
   mapUrl: 'https://maps.app.goo.gl/Rht9vG4SLvWJ4U1x6',
-  mapEmbedUrl: 'https://maps.google.com/maps?q=1012+N+Howard+Ave+ste+105,+Tampa,+FL+33607&t=&z=16&ie=UTF8&iwloc=&output=embed',
+  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4217.285472732379!2d-82.48573042452382!3d27.95264247604286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c3a791a09bc5%3A0x3960df130f36d389!2sBayshore%20SR22%20Insurance%20Tampa!5e1!3m2!1sen!2sph!4v1790676795162!5m2!1sen!2sph',
 };

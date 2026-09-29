@@ -40,15 +40,15 @@ export default function Footer() {
           </div>
 
           {/* Interactive Google Map Iframe */}
-          <div className="relative w-full h-[320px] sm:h-[400px] rounded-xl overflow-hidden border border-white/10 shadow-inner bg-slate-900">
+          <div className="relative w-full h-[320px] sm:h-[450px] rounded-xl overflow-hidden border border-white/10 shadow-inner bg-slate-900">
             <iframe
               src={COMPANY_INFO.mapEmbedUrl}
               width="100%"
-              height="100%"
+              height="450"
               style={{ border: 0 }}
-              allowFullScreen={false}
+              allowFullScreen
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin-when-cross-origin"
               title="Bayshore SR22 Insurance Tampa Office Location"
               className="w-full h-full filter contrast-105"
             />
